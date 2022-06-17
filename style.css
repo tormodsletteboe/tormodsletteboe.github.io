@@ -1,7 +1,7 @@
 body {
   background-color: #444444;
   color: #ddd;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Garamond, Helvetica, sans-serif;
   margin: 10% 20%;
 }
 .edu-header{
@@ -16,4 +16,11 @@ body {
 }
 .edu-item {
   text-align: center;
+}
+.summary-header{
+   text-align: center;
+  text-transform:uppercase;
+  border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;
+  background-color: rgba(0,0,0,0.1);
 }
