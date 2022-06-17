@@ -4,10 +4,16 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   margin: 10% 20%;
 }
-.exp-header{
+.edu-header{
   text-align: center;
   text-transform:uppercase;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   background-color: rgba(0,0,0,0.1);
+}
+.name{
+  text-align: center;
+}
+.edu-item {
+  text-align: center;
 }
