@@ -17,10 +17,13 @@ body {
 .edu-item {
   text-align: center;
 }
-.summary-header{
-   text-align: center;
+.Experience-header{
+  text-align: center;
   text-transform:uppercase;
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   background-color: rgba(0,0,0,0.1);
+}
+.experience-item{
+  text-align: center;
 }
