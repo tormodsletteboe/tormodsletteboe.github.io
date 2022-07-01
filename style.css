@@ -20,7 +20,7 @@ body {
 }
 .name{
   text-align: center;
-  color: orange;
+ 
   
   position: relative;
   animation-name: moveNameDiv;
