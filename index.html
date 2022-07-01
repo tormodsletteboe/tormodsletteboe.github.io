@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+ 
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width">
@@ -39,13 +40,30 @@
     <div class="summary-header">
       <h3>Summary</h3>
     </div>
-    <div class="summary-item">
-      <p>
-        To whom it concerns, I am a self-taught C# developer. I studied petroleum engineering in college, but found that I liked programming more. After graduation I worked for 2 years before I decided to take a MS in computer science. I took classes like Operating Systems, Networking etc, for a year. Classes then became non technical and more about government policy's as my program was tightly linked with the military. I dropped out and started working fulltime for Kelkar and Associates as their main developer. After 6 years I was burned out, mostly due to my lack of communication and imposter syndrome. I have been away from coding last few years and have worked mostly as an excavator and trucker. I'm currently taking Harvard CS50 online course and freecodecamp boot camp to get back into the software world. I grew up on a farm in Norway where hard work ethic was a must. I have held many different kinds of jobs (farmer substitute, carpenter, butcher, bowling alley attendant, carpet installer, software developer) and the one thing I have learned is that every business is a people business. By that I mean it does not matter so much what you do, but that you are a team player, care about other people and their lives, and in general help make your workplace a positive space where people feel safe and look forward to come to everyday. I have worked with people from all around the world (USA, India, Nigeria, Venezuela, Indonesia, Iran, Norway etc.) in my former jobs. The feedback I have gotten from them have taught me that I am positive and caring.
-
+    <article id="content">
+      <p id="summary" >
+        To whom it concerns, I am a self-taught C# developer.
+        I studied petroleum engineering in college, but found that I liked programming more.
+        After graduation I worked for 2 years before I decided to take a MS in computer science.
+        I took classes like Operating Systems, Networking etc, for a year. Classes then became non
+        technical and more about government policy's as my program was tightly linked with the military.
+        I dropped out and started working fulltime for Kelkar and Associates as their main developer.
+        After 6 years I was burned out, mostly due to my lack of communication and imposter syndrome.
+        I have been away from coding last few years and have worked mostly as an excavator and trucker.
+        I'm currently taking Harvard CS50 online course and freecodecamp boot camp to get back into the
+        software world. I grew up on a farm in Norway where hard work ethic was a must. I have held many
+        different kinds of jobs (farmer substitute, carpenter, butcher, bowling alley attendant, carpet 
+        installer, software developer) and the one thing I have learned is that every business is a people
+        business. By that I mean it does not matter so much what you do, but that you are a team player,
+        care about other people and their lives, and in general help make your workplace a positive space
+        where people feel safe and look forward to come to everyday. I have worked with people from all
+        around the world (USA, India, Nigeria, Venezuela, Indonesia, Iran, Norway etc.) in my former jobs.
+        The feedback I have gotten from them have taught me that I am positive and caring.
       </p>
+    </article>
+    <div class="buttonArea">
+      <button id="dangButton" onclick="showMore()">Show more</button>
     </div>
-    
     <div class="Experience-header">
       <h3>Experience</h3>
     </div>
@@ -79,4 +97,24 @@
       </footer>
     </div>
   </body>
+  
+  <script>
+    const article = document.querySelector("#content");
+    let btn =document.querySelector("#dangButton");
+    function showMore()
+    {
+      if (article.className == "open") {
+       // read less
+       article.className = "";
+       btn.innerHTML = "Show more";
+     } else {
+       //read more
+       article.className = "open";
+       btn.innerHTML = "Show less";
+     }
+    }
+  </script>
+  
 </html>
+
+
