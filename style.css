@@ -13,6 +13,7 @@ body {
 }
 .name{
   text-align: center;
+  color: orange;
 }
 .edu-item {
   text-align: center;
