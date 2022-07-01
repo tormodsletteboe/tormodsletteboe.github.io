@@ -27,3 +27,6 @@ body {
 .experience-item{
   text-align: left;
 }
+.bottom{
+  border-top: 1px solid #ddd;
+}
