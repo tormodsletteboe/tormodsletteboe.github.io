@@ -38,6 +38,7 @@ body {
   border-top: 1px solid #ddd;
   border-bottom: 1px solid #ddd;
   background-color: rgba(0,0,0,0.1);
+  
 }
 .experience-item{
   text-align: left;
@@ -45,3 +46,39 @@ body {
 .bottom{
   border-top: 1px solid #ddd;
 }
+
+article{
+  max-height: 70px;
+  overflow:hidden;
+  transition:max-height 0.5s;
+  
+  
+}
+.summary{
+  margin-bottom: 16px;
+}
+
+button{
+  background:none;
+  color: #fff;
+  padding: 0.6rem;
+  margin-top: 20px;
+  border-radius: 4px;
+  margin-bottom: 20px;
+  border-color: white;
+  
+}
+.buttonArea{
+  margin: none;
+  padding-left: 50px;
+}
+
+article.open{
+  max-height:1000px;
+}
+button:hover{
+  cursor: pointer;
+  
+}
+
+
