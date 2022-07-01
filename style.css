@@ -11,9 +11,22 @@ body {
   border-bottom: 1px solid #ddd;
   background-color: rgba(0,0,0,0.1);
 }
+@keyframes moveNameDiv{
+  0%   { left:0px; top:0px;}
+  25%  { left:200px; top:0px;}
+  50%  { left:200px; top:200px;}
+  75%  { left:0px; top:200px;}
+  100% { left:0px; top:0px;}
+}
 .name{
   text-align: center;
   color: orange;
+  position: relative;
+  animation-name: moveNameDiv;
+  animation-duration: 4s;
+  animation-delay: 2s;
+  animation-iteration-count: infinite;
+
 }
 .edu-item {
   text-align: center;
